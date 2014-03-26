@@ -1,0 +1,10 @@
+{
+    "name": "baijian/dc",
+    "version": "0.0.1-dev",
+    "require": {
+        "fluent/logger": "v0.3.7"
+    },
+    "autoload": {
+        "psr-4": {"Baijian\\": "src/"}
+    }
+}
