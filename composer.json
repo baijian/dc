@@ -5,6 +5,6 @@
         "fluent/logger": "v0.3.7"
     },
     "autoload": {
-        "psr-4": {"Baijian\\": "src/"}
+        "psr-4": {"Baijian\\Dc\\": "src/"}
     }
 }
