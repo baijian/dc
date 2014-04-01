@@ -1,0 +1,33 @@
+GEM
+  remote: http://ruby.taobao.org/
+  specs:
+    cool.io (1.2.1)
+    fluent-plugin-mysql (0.0.7)
+      fluentd
+      jsonpath
+      mysql2-cs-bind
+    fluentd (0.10.45)
+      cool.io (>= 1.1.1, < 2.0.0, != 1.2.0)
+      http_parser.rb (~> 0.5.1)
+      json (>= 1.4.3)
+      msgpack (>= 0.4.4, < 0.6.0, != 0.5.3, != 0.5.2, != 0.5.1, != 0.5.0)
+      sigdump (~> 0.2.2)
+      yajl-ruby (~> 1.0)
+    http_parser.rb (0.5.3)
+    json (1.8.1)
+    jsonpath (0.5.6)
+      multi_json
+    msgpack (0.5.8)
+    multi_json (1.9.2)
+    mysql2 (0.3.15)
+    mysql2-cs-bind (0.0.6)
+      mysql2
+    sigdump (0.2.2)
+    yajl-ruby (1.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fluent-plugin-mysql (~> 0.0.7)
+  fluentd (~> 0.10.45)
