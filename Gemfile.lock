@@ -2,6 +2,9 @@ GEM
   remote: http://ruby.taobao.org/
   specs:
     cool.io (1.2.1)
+    fluent-plugin-multiprocess (0.1.0)
+      fluentd (~> 0.10.0)
+      serverengine (~> 1.5.5)
     fluent-plugin-mysql (0.0.7)
       fluentd
       jsonpath
@@ -22,6 +25,8 @@ GEM
     mysql2 (0.3.15)
     mysql2-cs-bind (0.0.6)
       mysql2
+    serverengine (1.5.7)
+      sigdump (~> 0.2.2)
     sigdump (0.2.2)
     yajl-ruby (1.2.0)
 
@@ -29,5 +34,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fluent-plugin-multiprocess
   fluent-plugin-mysql (~> 0.0.7)
   fluentd (~> 0.10.45)
